@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#hamburger {
+    margin: 0.1em 0 0 0.25em;
+    font-size: 3em;
+    cursor: pointer;
+}
+
+#sidePopOut {
+    height: 300px;
+    width: 0em;
+    position: fixed;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5em;
+    white-space: nowrap;
+    border-radius: 0 10px 10px 0;
+  }
+  
+  #sidePopOut a {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    text-decoration: none;
+    font-size: 2em;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  #sidePopOut a:hover,
+  #sidePopOut a:focus {
+    color: #f1f1f1;
+    text-decoration: none;
+    outline: none;
+    background-color: rgb(44, 41, 41);
+  }
+  
+  #closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
